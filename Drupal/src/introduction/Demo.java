@@ -12,7 +12,7 @@ public class Demo {
 		System.setProperty("webdriver.chrome.driver","/Users/sukanya/Desktop/chromedriver33");
 		WebDriver Driver = new ChromeDriver();
 		
-		Driver.get("http://localhost/drupal");
+		Driver.get("https://www.google.com");
 		System.out.println("home page loaded");
 		Driver.findElement(By.id("edit-name")).sendKeys("admin");
 		System.out.println("Entered Username");
