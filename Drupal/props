@@ -1,0 +1,4 @@
+url = http://localhost/drupal
+browser = chrome
+username = admin
+pass = admin
