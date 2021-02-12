@@ -14,7 +14,7 @@ public class NewTest {
   
   @BeforeClass
   public void beforeClass() {
-		System.setProperty("webdriver.chrome.driver","/Users/sukanya/Desktop/chromedriver33");
+		System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
 		this.Driver = new ChromeDriver();
 		Driver.get("https://www.esteelauder.fr");
   }
