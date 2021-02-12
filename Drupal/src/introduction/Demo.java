@@ -9,12 +9,12 @@ public class Demo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver","/Users/sukanya/Desktop/chromedriver33");
+		System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
 		WebDriver Driver = new ChromeDriver();
 		
 		Driver.get("https://www.google.com");
 		System.out.println("home page loaded");
-		Driver.findElement(By.id("edit-name")).sendKeys("admin");
+		/*Driver.findElement(By.id("edit-name")).sendKeys("admin");
 		System.out.println("Entered Username");
 		Driver.findElement(By.id("edit-pass")).sendKeys("admin");
 		System.out.println("Entered Password");
@@ -67,7 +67,7 @@ public class Demo {
 		Driver.findElement(By.id("email")).sendKeys("ra@testuser.com");
 		Driver.findElement(By.xpath("//*[@track-input='Pay_Now']")).click();
 		
-		
+		*/
 		
 		
 	}
